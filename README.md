@@ -4,7 +4,7 @@ A simple Amazon Web Scraper proof of concept using Selenium inside a Python appl
 
 
 ## Local setup
-If you fork this repo and try to run ```python scraper.py``` most probably you
+If you fork this repo and try to run ```python scraper.py``` most probably you  
 will get this error:
 
 ```
@@ -15,7 +15,7 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executabl
 
 That is because you have no installed 'chromedriver'
 
-You require Google Chrome installed and the chromedriver for the same version of your chrome browser
+You require Google Chrome installed and the chromedriver for the same version of your chrome browser  
 
 i.e. if you have Google Chrome 73.XXX.XX you will need chromedriver 73
 
@@ -29,7 +29,7 @@ Reference https://swethatanamala.github.io/2018/09/01/web-scraping-using-python-
 
 ## Heroku requirements (only for deployment)
 #### Environment variables
-CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver
+CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver  
 GOOGLE_CHROME_BIN = /app/.apt/usr/bin/google-chrome
 
 ![](./imgs/buildpacks.png)
@@ -38,7 +38,7 @@ GOOGLE_CHROME_BIN = /app/.apt/usr/bin/google-chrome
 You will need to install Google Chrome on heroku, so you need to add this custom buildpack:  
 https://github.com/heroku/heroku-buildpack-google-chrome  
 
-Furthermore you will need the chromedrivre package for selenium
+Furthermore you will need the chromedrivre package for selenium  
 https://github.com/heroku/heroku-buildpack-chromedriver
 
 ![](./imgs/environment_variables.png)
