@@ -32,7 +32,7 @@ Reference https://swethatanamala.github.io/2018/09/01/web-scraping-using-python-
 CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver  
 GOOGLE_CHROME_BIN = /app/.apt/usr/bin/google-chrome
 
-![](./imgs/buildpacks.png)
+![](./imgs/environment_variables.png)
 
 #### Buildpacks
 You will need to install Google Chrome on heroku, so you need to add this custom buildpack:  
@@ -41,7 +41,7 @@ https://github.com/heroku/heroku-buildpack-google-chrome
 Furthermore you will need the chromedrivre package for selenium  
 https://github.com/heroku/heroku-buildpack-chromedriver
 
-![](./imgs/environment_variables.png)
+![](./imgs/buildpacks.png)
 
 
 Source: https://stackoverflow.com/questions/41059144/running-chromedriver-with-python-selenium-on-heroku
